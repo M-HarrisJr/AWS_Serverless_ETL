@@ -5,7 +5,7 @@ This project demonstrates a serverless ETL (Extract, Transform, Load) data pipel
 Raw CSV sales data is stored in Amazon S3, processed using AWS Lambda (Python), and output as aggregated summary data back into S3 for analytics use.
 
 ## Architecture
-S3 (Raw Data) → AWS Lambda (Raw Data Transformation) → S3 (Processed Data) </br>
+S3 (Raw Data) → AWS Lambda (Raw Data Transformation) → S3 (Processed Data) </br></br>
 ![Architecture](architecture/architecture.png)
 
 ## Technologies Used
