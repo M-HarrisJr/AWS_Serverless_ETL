@@ -6,6 +6,7 @@ Raw CSV sales data is stored in Amazon S3, processed using AWS Lambda (Python), 
 
 ## Architecture
 S3 (Raw Data) → AWS Lambda (Raw Data Transformation) → S3 (Processed Data)
+![Architecture](architecture/architecture.png)
 
 ## Technologies Used
 - AWS Lambda
